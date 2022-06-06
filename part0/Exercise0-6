@@ -1,0 +1,9 @@
+#0.6 new note spa
+
+note over browser:
+On form submit, browser js runs and adds new note to list of notes,
+then redisplays the notes on the page
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: status code 201
